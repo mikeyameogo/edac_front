@@ -1,0 +1,68 @@
+[
+    {
+      "id" : 1,
+      "libelle": "La dernière situation administrative",
+      "categorie":"Disponibilite"
+    },
+    {
+        "id" : 2,
+        "libelle": "Lettre ou note formulée par l'entreprise ou la notification de recrutement",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 3,
+        "libelle": "La dernière situation administrative",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 4,
+        "libelle": " L’acte de naissance de l'enfant",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 5,
+        "libelle": "L’acte de mariage",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 6,
+        "libelle": " Le certificat de résidence ou toute autre pièce tenant lieu",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 7,
+        "libelle": "Le mandat syndical ou procès-verbal de délibération, ou toute autre pièce tenant lieu",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 8,
+        "libelle": "Le certificat médical",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 9,
+        "libelle": "L’arrêté de disponibilité ou de renouvellement de disponibilité",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 10,
+        "libelle": "Lettre ou note formulée par l'entreprise ou la notification de recrutement",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 10,
+        "libelle": " L’acte de mariage",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 11,
+        "libelle": "Le mandat syndical ou procès-verbal de délibération, ou toute autre pièce tenant lieu",
+        "categorie":"Disponibilite"
+      },
+      {
+        "id" : 12,
+        "libelle": " Le certificat médical",
+        "categorie":"Disponibilite"
+      }
+
+  ]

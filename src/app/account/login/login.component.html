@@ -1,0 +1,68 @@
+<img  class="fixed left-0 top-0 min-h-screen min-w-screen"
+    style="margin-left:0px;width: 100%;">
+<div class="px-5 min-h-screen flex justify-content-center align-items-center" style="">
+    <div class="border-1 surface-border surface-card border-round z-1 bg-green">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="login-pf-header"
+                    style="margin-left:30px;margin-right:30px;margin-bottom: -30px;padding-top:10px;">
+                    <div class="logo" style="">
+                        <img src="assets/img/icons/armoiries-bon-2gg.png" alt="logo" height="150" width="150">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-t-30 bg-green"
+            style="margin-left:0px;margin-right:0px;padding-left: 30px;padding-right: 30px;background-color: #eaeaea;padding-bottom:50px;padding-top: 50px;">
+            <div class="col-md-12">
+                <div class="mb-4 p-ml-auto">
+                    <p-message *ngIf="message" [severity]="message.severity" [text]="message.summary"></p-message>
+                    <p-progressSpinner *ngIf="isOpInProgress" strokeWidth="4" [style]="{width: '50px', height: '50px'}">
+                    </p-progressSpinner>
+                </div>
+                <!-- <div class="mb-4">
+                    <div class="text-900 text-xl font-bold mb-2">Se connecter</div>
+                    <span class="text-600 font-medium">Entrez votre email et votre mot de passe</span>
+                </div> -->
+                <form (ngSubmit)="seConnecter()" #dtf="ngForm" style="margin-top:20px;">
+                    <div class="flex flex-column">
+                        <span class="p-input-icon-left w-full mb-4">
+                            <i class="pi pi-envelope"></i>
+                            <input autofocus id="matricule" type="matricule" name="username" [(ngModel)]="account.matricule"
+                                #username="ngModel" required pInputText class="w-full md:w-25rem" placeholder="matricule">
+                        </span>
+                        <span class="p-input-icon-left w-full mb-4">
+                            <i class="pi pi-lock"></i>
+                            <input autofocus id="password" name="password" [(ngModel)]="account.password"
+                                #password="ngModel" type="password" pInputText class="w-full md:w-25rem"
+                                placeholder="Mot de passe" required>
+                        </span>
+                        <div class="mb-4 flex flex-wrap gap-3">
+                            <div>
+                                <p-checkbox name="checkbox" value="val" label="Se souvenir"
+                                    [(ngModel)]="account.rememberMe" styleClass="mr-2" [binary]="true">
+                                </p-checkbox>
+                                <!-- <label for="checkbox" class="text-900 font-medium mr-8">Se souvenir</label> -->
+                            </div>                             
+                        </div>
+                        <div>
+                            <a [routerLink]="['/account']"
+                            class="text-600 cursor-pointer hover:text-primary cursor-pointer ml-auto transition-colors transition-duration-300 text-dark">Mot
+                            de passe oublié?
+                            </a>
+                            <br>
+                            <a [routerLink]="['/account']"
+                            class="text-600 cursor-pointer hover:text-primary cursor-pointer ml-auto transition-colors transition-duration-300 text-dark">
+                            S'inscrire ici
+                            </a>
+                        </div>
+                        <button pButton pRipple type="submit" [disabled]="!dtf.form.valid" label="Connexion"  
+                        style="background-color:#006699;">
+                        </button>
+                        <!-- <button pButton pRipple label="Connexion" class="w-full btn-primary" [routerLink]="['/admin']"></button> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

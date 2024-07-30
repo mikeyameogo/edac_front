@@ -1,0 +1,72 @@
+<!-- formulaire d'affichage du détail -->
+<ng-template pTemplate="header">
+    <span class="p-mr-auto"> <b>DETAILS DEMANDE</b></span>
+  </ng-template>
+  <!-- <p-divider></p-divider> -->
+  <hr>
+  <div class="row">
+    <div class="col-md-6 details-item">
+      <span class="va-m"><span class="font-bold">Numero demande:</span> {{demande.numero}}</span>
+      <!-- <span class="va-m"><span class="font-bold">Numero demande :</span> Disp_001</span> -->
+    </div>
+    <div class="col-md-6 details-item">
+      <span class="va-m"><span class="font-bold">Date de demande:</span> {{demande.dateDemande}}</span>
+      <!-- <span class="va-m"><span class="font-bold">Date de demande : </span> 30 septembre 2023</span> -->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 details-item">
+        <span class="va-m"><span class="font-bold">Type de demande:</span> {{demande.typeDemande}}</span>
+        <!-- <span class="va-m"><span class="font-bold">Type de demande : </span> Renouvellement de disponibilité</span> -->
+      </div>
+    <div class="col-md-6 details-item">
+      <!-- <span class="va-m"><span class="font-bold">Motif:</span>{{demande.typeDemande!.motifDTOs!.libelle}}</span> -->
+      <span class="va-m"><span class="font-bold">Motif : </span>Disponibilité pour élever un enfant de moins de 5 ans</span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 details-item">
+      <span class="va-m"><span class="font-bold">Structure de disponibilité : </span> {{demande.structure}}</span>
+      <!-- <span class="va-m"><span class="font-bold">Structure de disponibilité : </span>DGSI</span> -->
+    </div>
+    <div class="col-md-6 details-item">
+      <span class="va-m"><span class="font-bold">Date d'effet:</span> {{demande.dateEffet}}</span>
+      <!-- <span class="va-m"><span class="font-bold">Date d'effet : </span> 24 février 2024</span> -->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 details-item">
+      <!-- <span class="va-m"><span class="font-bold">Matricule agent:</span> {{ demande.agent?.matricule }}</span> -->
+      <span class="va-m"><span class="font-bold">Matricule agent : </span> 386242 C</span>
+    </div>
+    <div class="col-md-6 details-item">
+      <span class="va-m"><span class="font-bold">Nom agent:</span> {{ demande.agent?.nom }} {{ demande.agent?.prenom }}</span>
+      <!-- <span class="va-m"><span class="font-bold">Nom agent : </span> Abdel Hamid</span> -->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 details-item">
+      <span class="va-m"><span class="font-bold">Statut demande:</span> {{demande.statut}}</span>
+      <!-- <span class="va-m"><span class="font-bold">Statut demande : </span> INITIATION</span> -->
+    </div>
+  </div>
+  
+  <p-divider></p-divider>
+  <div class="row justify-content-center">
+    <!-- <div class="p-ml-auto text-right">
+        <button description="receptionner" icon="pi pi-folder-open" label="Receptionner" (click)="openModalReceptionner(demande)" class="p-button-primary mr-2"
+        pButton></button>
+    </div>
+    <div class="p-ml-auto text-right">
+        <button description="aviser" icon="pi pi-pencil" label="Aviser" (click)="openModalAviser(demande)" class="p-button-success mr-2"
+        pButton></button>
+    </div> -->
+    <div class="p-ml-auto text-right">
+        <button description="reset" icon="pi pi-times" label="Fermer" (click)="clear()" class="p-button-danger mr-2"
+        pButton></button>
+    </div>
+  </div>

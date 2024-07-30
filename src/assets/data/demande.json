@@ -1,0 +1,24 @@
+
+
+[
+    {
+      "id" : 1,
+      "dateEffet" : "30/10/2023",
+      "typeDemande": "Nouvelle demande",
+      "numero": "54223358",
+      "dateDemande":"02/10/2023",
+      "structDestination":"MEF",
+      "status":"En cours"
+      
+    },
+    {
+        "id" : 2,
+        "dateEffet" : "30/10/2023",
+        "typeDemande": "Renouvellement de demande",
+        "numero": "54223358",
+        "dateDemande":"02/10/2023",
+        "structDestination":"CNAMU",
+        "status":"En cours"
+        
+      }
+]

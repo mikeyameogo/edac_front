@@ -1,0 +1,94 @@
+<style>
+    * {
+      box-sizing: border-box;
+    }
+  
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 30px;
+    }
+  
+    .sub-title {
+      color: #7F7F7F;
+      font-size: 20px;
+    }
+  
+    .flex-item-left {
+      flex: 60%;
+    }
+  
+    .flex-item-right {
+      flex: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* background-color: black; */
+      background-color:  #9C27B0;
+      background-image: linear-gradient(120deg, #FF4081, #81fa8b)
+    }
+  
+    .flex-item-right h6{
+      color: white;
+    }
+  
+    .aitem {
+      color:#000000e1;
+      font-size: 50%;
+    }
+  
+    .flex-item-center {
+      /* flex: 10%; */
+      text-align: left;
+    }
+  
+    /* Responsive layout - makes a one column-layout instead of a two-column layout */
+    @media (max-width: 800px) {
+      .flex-item-right,
+      .flex-item-left {
+        flex: 100%;
+      }
+    }
+  </style>
+  
+  
+  <div> 
+    <div class="flex-container mb-2">
+      <div class="flex-item-center">
+        <a class="navbar-brand" href="/">
+          <img src="assets/img/icons/armoiries-bon-2gg.png" width="100px" height="120px" alt="BURKINA FASO">
+        </a>
+      </div>
+  
+      <div class="flex-item-left w-150"> 
+        <h4 class="mt-7"><b>Demande en ligne d'Acte de Carrière</b></h4>
+      </div> 
+
+      <div >
+        <a class="navbar-brand" href="/">
+          <img src="assets/img/drapeau.PNG" width="100px" height="100px" alt="BURKINA FASO">
+        </a>
+      </div>
+  
+      </div>
+  
+    <p-menubar class="link-secondary" [model]="items" [autoDisplay]='true'>
+      <ng-template pTemplate="end">
+        <div >
+            <button pButton type="button" icon="pi pi-sign-in"
+                style="background-color: #f8f9fa; color: #756254;" pTooltip="Se connecter si vous avez déja un compte"
+                tooltipPosition="bottom"  *ngIf="!isLogged" (click)="login()">se connecter
+            </button>
+            <button pButton type="button" icon="pi pi-sign-in"
+            style="background-color: #f8f9fa; color: #756254;" pTooltip="Se connecter si vous avez déja un compte"
+            tooltipPosition="bottom"  *ngIf="isLogged" (click)="logout()">se deconnecter
+            </button>  
+            <button pButton type="button" icon="pi pi-user-plus"
+                style="background-color: #f8f9fa; color: #756254;" pTooltip="Creer Un Compte si vous n'en disposer pas"
+                tooltipPosition="bottom" routerLink="/account">Créer compte
+            </button>
+        </div>
+    </ng-template>
+  </p-menubar>
+  </div>
+  

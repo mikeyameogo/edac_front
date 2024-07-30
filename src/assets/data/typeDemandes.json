@@ -1,0 +1,127 @@
+[{
+    "id": 1,
+    "code": "DISP_N",
+    "libelle": "Nouvelle demande",
+    "motifDTOs": [
+    {
+        "id" : 1,
+        "libelle": "disponibilité pour accident ou maladie",
+        "piece": [
+          {
+            "id" : 1,
+            "libelle": "La dernière situation administrative",
+            "categorie":"Disponibilite"
+          },
+          {
+            "id" : 8,
+            "libelle": "Le certificat médical",
+            "categorie":"Disponibilite"
+          }
+        ]
+      },
+      {
+          "id" : 2,
+          "libelle": "disponibilité pour exercer une activité dans une entreprise privée",
+          "piece": [
+            {
+              "id" : 1,
+              "libelle": "La dernière situation administrative",
+              "categorie":"Disponibilite"
+            },
+            {
+              "id" : 10,
+              "libelle": "Lettre ou note formulée par l'entreprise ou la notification de recrutement",
+              "categorie":"Disponibilite"
+            }
+          ]
+        },
+        {
+          "id" : 3,
+          "libelle": "disponibilité pour élever un enfant de moins de cinq ans",
+          "piece": [
+            {
+              "id" : 1,
+              "libelle": "La dernière situation administrative",
+              "categorie":"Disponibilite"
+            },
+            {
+              "id" : 4,
+              "libelle": " L’acte de naissance de l'enfant",
+              "categorie":"Disponibilite"
+            }
+          ]
+        },
+        {
+          "id" : 4,
+          "libelle": "disponibilité pour suivre son conjoint",
+          "piece": [
+            {
+              "id" : 1,
+              "libelle": "La dernière situation administrative",
+              "categorie":"Disponibilite"
+            },
+            {
+              "id" : 5,
+              "libelle": "L’acte de mariage",
+              "categorie":"Disponibilite"
+            },
+            {
+              "id" : 6,
+              "libelle": " Le certificat de résidence ou toute autre pièce tenant lieu",
+              "categorie":"Disponibilite"
+            }
+          ]
+        },
+
+        {
+          "id" : 5,
+          "libelle": "disponibilité pour exercer un mandat syndical",
+          "piece": [
+            {
+              "id" : 1,
+              "libelle": "La dernière situation administrative",
+              "categorie":"Disponibilite"
+            },
+            {
+              "id" : 7,
+              "libelle": "Le mandat syndical ou procès-verbal de délibération, ou toute autre pièce tenant lieu",
+              "categorie":"Disponibilite"
+            }
+          ]
+        }
+    ]
+    
+  },
+  {
+    "id": 2,
+    "code": "DISP_R",
+    "libelle": "Renouvellement détachement"
+  },
+  {
+    "id": 3,
+    "code": "DISP_F",
+    "libelle": "Fin détachement"
+  },
+  {
+    "id": 4,
+    "code": "DISP_A",
+    "libelle": "Annulation détachement"
+  },
+  {
+    "id": 5,
+    "code": "DISP_RE",
+    "libelle": "Rectification détachement"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+

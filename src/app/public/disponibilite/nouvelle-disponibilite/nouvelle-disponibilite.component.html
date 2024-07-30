@@ -1,0 +1,288 @@
+
+<main>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+      
+        .flex-container {
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 30px;
+        }
+      
+      
+        .sub-title {
+          color: #7F7F7F;
+          font-size: 15px;
+        }
+      
+      
+      
+        img {
+          min-width: 100%;
+          max-height: 100%;
+          width: 100%;
+          display: block;
+        }  
+      
+        .flex-item-right {
+          flex: 25%;
+          text-align: center;
+          background-color: black;
+        }
+      
+        .flex-item-center {
+          flex: 10%;
+          text-align: left;
+        }
+      
+        h1.ontop {
+          position: relative;
+      
+        }
+      
+      
+        .info {
+          position: relative;
+          display: flex;
+          width: 100%;
+          background: rgb(22, 21, 21, 0.6);
+      
+      
+        }
+      
+        .info::before {
+          font-size: 20px;
+          padding: 4px;
+          position: absolute;
+          background: black;
+      
+      
+        }
+      
+        h5 {
+          position: relative;
+          width: 100%;
+          color: #ffffff;
+          opacity: 1;
+          font-weight: bold;
+          padding: 5px;
+          padding-left: 15px;
+          border-bottom: 2px solid yellow;
+        }
+      
+        p {
+          font-size: 19px;
+          color: #ffffff;
+          padding: 15px;
+        } 
+        /* Responsive layout - makes a one column-layout instead of a two-column layout */
+        @media (max-width: 800px) {
+      
+          .flex-item-right,
+          .flex-item-left {
+            flex: 100%;
+          }
+        }
+    </style>
+    <div class="flex-container mb-2">
+        <div class="flex-item">
+         <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="info flex-container">
+                    <h5>Bienvenue sur eDAC </h5>
+                    <p class="ontop"> eDAC est une plateforme qui permet aux usagers/clients de formuler 
+                    leurs demandes de détachement et de disponibilité en ligne, d’en suivre le traitement et de pouvoir télécharger l’acte signé.
+                     </p>
+                </div>
+            </div>
+         <div class="col-md-6 mt-7 mb-2">
+            <div class="info flex-container">
+                <p class="ontop"> Les différentes informations relatives aux procédures de disponibilité et de détachement menteionnées dans cette plateforme
+                                  sont tirées de la loi 081-2015/CNT du 24 novembre 2015 portant statut général de la fonction publique d'Etat.
+                 </p><a href="#" class="btn btn-success">Télécharger ici</a>
+              </div>          
+         </div>
+         
+         </div>
+         
+          
+          
+        </div>
+    </div>   
+    <!-- le corps -->
+      <div class="main-content">
+        <div class="with-back">
+            <div class="row mb-2" >
+              <div class="col-md-6 border-style: solid 2px ;"> 
+                <div class=" g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" >
+                  <div class="col d-flex flex-column p-0 position-static">
+                    <div class="header-1" style="background-color: rgb(22, 21, 21, 0.6); color:white; ">
+                    <strong class="d-inline-block p-2">Nouvelle disponibilité</strong>
+                  </div>
+                  <div class="bg-white-actif">
+                   <div class="text-justify;" style="font-family: arial;">
+                    La disponibilité est un acte par lequel un fonctionnaire qui, placé hors de son administration ou service d’origine, 
+                    cesse de bénéficier de ses droits à l’avancement et à la retraite.
+                    Il existe plusieurs motifs de détachement:
+                    </div> <br>
+                    <span>
+                        
+                    <ul><li><strong>Disponibilité pour accident ou maladie grave dument constatée du conjoint ou d’un enfant ; elle ne peut excéder deux ans. Elle est renouvelable ;</strong></li></ul>
+                    <ul><li><strong>Disponibilité pour convenances personnelles. Elle ne peut excéder deux ans, mais elle est renouvelable jusqu’à concurrence d’une durée de huit ans au maximum dans la carrière du fonctionnaire ;</strong></li></ul>
+                    <ul><li><strong>
+                        Disponibilité pour exercer une activité dans une entreprise privée. Elle peut être accordée dans les conditions suivantes :
+                        qu’il soit constaté que cette mise en disponibilité est compatible avec les intérêts de l’administration où le fonctionnaire travaille, notamment que l’intéressé n’ait pas eu, au cours des cinq dernières années, à exercer un contrôle sur l’entreprise ou à participer à l’élaboration de marchés avec elle ;
+                        que l’intéressé ait accompli au moins cinq années de services effectifs dans l’administration.
+                        La durée de la disponibilité pour exercer une activité dans une entreprise privée ne peut excéder deux ans mais elle est renouvelable jusqu’à concurrence d’une durée totale de dix ans au maximum dans la carrière du fonctionnaire ;
+                    </strong></li></ul>
+                    <ul><li><strong>Disponibilité accordée au fonctionnaire pour élever un enfant de moins de cinq ans. Elle  ne peut excéder deux ans. Elle est renouvelable jusqu'à ce que l'enfant ait atteint l'âge de cinq ans. Dans ce contexte, le fonctionnaire perçoit la totalité des allocations à caractère familial. Il en est de même lorsque la disponibilité est accordée pour maladie grave d'un enfant ;</strong></li></ul>
+                    <ul><li><strong>Disponibilité accordée au fonctionnaire pour suivre son conjoint astreint à établir sa résidence habituelle en un lieu différent de celui du service dudit fonctionnaire, pour une durée de deux ans renouvelable. La disponibilité prend fin avec le retour du conjoint au lieu de sa résidence d'origine ou à la demande du fonctionnaire ;</strong></li></ul>
+                    <ul><li><strong>Disponibilité pour exercer un mandat syndical. Elle est accordée au fonctionnaire pour la durée dudit mandat.</strong></li></ul>
+                    Dans les cas visés aux deux premiers points ci-dessus, la mise en disponibilité est subordonnée à l’avis favorable du ministre ou du président d’institution dont relève le fonctionnaire. Dans les autres cas, la disponibilité est de droit.
+                </span>
+                <span>
+                   </span>
+                   
+                  </div>
+                  
+                  </div>
+                  <div class="col-auto d-none d-lg-block"> </div>
+                </div>
+              </div>
+              <div class="col-md-6 border-style: solid 2px ;" > 
+                <div class=" g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" >
+                  <div class="col d-flex flex-column p-0 position-static">
+                    <div class="header-1" style="background-color: rgb(22, 21, 21, 0.6); color:white; ">
+                    <strong class="d-inline-block p-2">Circuit de traitement</strong>
+                  </div>
+                  <div class="bg-white-actif">
+                   <div class="text-justify;" style="font-family: arial;">
+                    L’agent formule sa demande adressée au ministre de tutelle ou au président d’institution 
+                    (demande timbrée à 200f indiquant les nom et prénom, le matricule, la structure, le motif,
+                    la date d’effet et la durée de la disponibilité avec les pièces complémentaires jointes).
+                    Après cette formulation, la structure transmet la demande à la Direction des Ressources Humaines (DRH)
+                    par voie hiérarchique. Une fois reçu à la DRH, la demande est imputée au service technique pour analyse et traitement.
+                    A l'issue du traitement, l’avant-projet élaboré est transmis au Directeur des Ressources Humaines pour paraphe puis au
+                    Secrétaire Général pour étude et signature. Une fois signé, l’acte est retourné au service technique pour numérisation 
+                    et mise en ligne, et archivage dans le Dossier Individuel. Une copie de l’acte signé est réservée pour l’agent soit au
+                    secrétariat de la DRH, soit acheminée dans sa structure.
+
+                    </div> <br>
+                <span>
+                   </span>
+                   
+                  </div>
+                  
+                  </div>
+                  <div class="col-auto d-none d-lg-block"> </div>
+                </div>
+              </div>
+               <div>
+               
+               </div>
+            </div>            
+            <div class="row mb-2" >
+                <div class="col-md-6">
+                    <div class=" g-0  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col  d-flex p-0 flex-column position-static">
+                        <div class="header-2" style="background-color: rgb(22, 21, 21, 0.6); color:white" >
+                        <strong class="d-inline-block p-2 ">Composition de dossier</strong>
+                      </div>
+                      <div class="bg-white-plus-individuel">
+
+                        <span><b>Disponibilité pour convenances personnelles:</b> 
+                            <ul style="font-family: arial;"><li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li>La dernière situation administrative ;</li>
+                            </ul> 
+                        </span>
+
+                        <span><b>Disponibilité pour accident ou maladie grave dûment constatée du conjoint ou d’un enfant:</b> 
+                            <ul style="font-family: arial;">
+                                <li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li>La dernière situation administrative ;</li>
+                                <li>Un certificat médical.</li>
+                            </ul> 
+                        </span>
+    
+                        <span><b>Détachement auprès des autorités administratives indépendantes dotées de l’autonomie financière et de la personnalité juridique:</b> 
+                            <ul style="font-family: arial;">
+                                <li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li>La dernière situation administrative ;</li>
+                            </ul> 
+                        </span>
+                        <span><b>Disponibilité pour exercer une activité dans une entreprise privée:</b> 
+                            <ul style="font-family: arial;">
+                                <li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li>La dernière situation administrative ;</li>
+                                <li> Un contrat de travail ou une lettre ou note formulée par l’entreprise ou la notification de recrutement.</li>
+                            </ul> 
+                        </span>
+
+                        <span><b>Disponibilité accordée au fonctionnaire pour élever un enfant de moins de cinq ans:</b> 
+                            <ul style="font-family: arial;">
+                                <li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li>La dernière situation administrative ;</li>
+                                <li> L’extrait de naissance de l’enfant.</li>
+                            </ul> 
+                        </span>
+
+                        <span><b> Disponibilité accordée au fonctionnaire pour suivre son conjoint astreint à établir sa résidence habituelle en un lieu différent de celui du service dudit fonctionnaire:</b> 
+                            <ul style="font-family: arial;">
+                                <li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li> L’acte de mariage ;</li>
+                                <li> Le certificat de résidence du lieu d’accueil du conjoint ou de la conjointe ou toute autre pièce tenant lieu.</li>
+                            </ul> 
+                        </span>                      
+                        <span><b> Disponibilité pour exercer un mandat syndical:</b> 
+                            <ul style="font-family: arial;">
+                                <li> Une demande timbrée à 200f (timbre fiscal) adressée au ministre de tutelle ou au président d’institution ;</li>
+                                <li>La dernière situation administrative ;</li>
+                                <li> le mandat syndical.</li>
+                            </ul> 
+                        </span>
+                        
+                        
+                        <br ><br ><br>
+                      </div>
+                      
+                      </div>
+                      <div class="col-auto d-none d-lg-block"> </div>
+                    </div>
+                  </div> 
+                <div class="col-md-6">
+                  <div class=" g-0  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col  d-flex p-0 flex-column position-static">
+                      <div class="header-2" style="background-color: rgb(22, 21, 21, 0.6); color:white">
+                      <strong class="d-inline-block p-2 ">Processus de demande sur la plateforme</strong>
+                    </div>
+                    <div class="bg-white-plus-individuel">
+                        <span ><b>Etape1:</b> Créer un compte sur la plateforme(si vous ne posséder pas un compte) 
+                                en cliquant sur le bouton en haut à l'angle</span>
+                        <br>
+                        <span><b>Etape2:</b> Se connecter à l'aide de vos identifiants(matricule, mot de passe)  
+                                en cliquant sur le bouton en haut à l'angle ou sur le bouton soumettre en bas </span>
+                        <br>
+                        <span><b>Etape3:</b> cliquer sur le bouton soumettre pour enregistrer votre demande</span>
+                        
+                        <br ><br ><br>
+                        <button (click)="soumettre()" label="Soumettre" class=" p-button-success mr-2" pButton></button>
+                      </div>
+                    
+                    </div>
+                    <div class="col-auto d-none d-lg-block"> </div>
+                  </div>
+                </div> 
+              </div>
+            <div class="row mb-2">
+              <div class="col-md-12">
+               
+              </div>
+            </div>
+      
+            <div class="astrodivider"><div class="astrodividermask"></div></div>
+        </div> 
+      </div>
+      </main><!-- /.container -->
+      

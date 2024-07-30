@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "nom": "YAMEOGO",
+    "prenom": "Axel",
+    "matricule": "1234",
+    "telephone": "54221032",
+    "emailAddress": "test@gmail.com",
+    "fonction":"informaticien"
+},
+{
+    "id": 2,
+    "nom": "OUEDRAOGO",
+    "prenom": "Harouna",
+    "matricule": "5678",
+    "telephone": "54221034",
+    "emailAddress": "test2@gmail.com",
+    "fonction":"enseignant"
+}
+]

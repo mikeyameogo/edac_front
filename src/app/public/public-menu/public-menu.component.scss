@@ -1,0 +1,41 @@
+::ng-deep .ui-menu,.ui-menu .ui-menu-child{
+    border: 0px;
+    background:#5393bc 0 0 repeat-x !important;
+}
+::ng-deep .ui-menu .ui-menuitem .ui-menuitem-link:hover{
+    background-color: #5393bc;
+    border: none;
+}
+::ng-deep .ui-menu .ui-menuitem .ui-state-active{
+    background-color: #5393bc;
+}
+::ng-deep .ui-menu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link,
+.ui-menu .ui-menuitem .ui-menuitem-link:hover{
+    background-color:#186ba0;
+    border: none;
+}
+::ng-deep .menucus{
+    background: #5393bc !important;
+}
+::ng-deep .ui-menu .ui-menuitem-parent, .ui-menu .ui-menuitem{
+    margin: auto;
+}  
+::ng-deep .ui-menuitem .ui-widget .ui-corner-all { 
+    border-radius:0;
+}
+
+::ng-deep .ui-menu .ui-menu-parent .ui-menu-child{
+    padding: 0;
+}
+
+.navbar-nav li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-item:hover{
+    color: #28a745!important;
+}
+.element.style {
+    background-color: #1e86e0;
+}

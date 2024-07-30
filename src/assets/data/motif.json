@@ -1,0 +1,69 @@
+[
+    {
+      "id" : 1,
+      "libelle": "disponibilité pour accident ou maladie",
+      "typeDemandeur":"agent",
+      "piece": [
+        {
+          "id" : 1,
+          "libelle": "La dernière situation administrative",
+          "categorie":"Disponibilite"
+        }
+      ]
+    },
+    {
+        "id" : 2,
+        "libelle": "disponibilité pour exercer une activité dans une entreprise privée",
+        "typeDemandeur":"agent",
+        "piece": [
+          {
+            "id" : 2,
+            "libelle": "Lettre ou note formulée par l'entreprise ou la notification de recrutement",
+            "categorie":"Disponibilite"
+          }
+        ]
+        
+      },
+      {
+        "id" : 3,
+        "libelle": "disponibilité pour élever un enfant de moins de cinq ans",
+         "typeDemandeur":"agent",
+        "piece": [
+          {
+            "id" : 4,
+            "libelle": " L’acte de naissance de l'enfant",
+            "categorie":"Disponibilite"
+          }
+        ]
+      },
+      {
+        "id" : 4,
+        "libelle": "disponibilité pour suivre son conjoint",
+        "typeDemandeur":"structure",
+        "piece": [
+          {
+            "id" : 5,
+            "libelle": "L’acte de mariage",
+            "categorie":"Disponibilite"
+          }
+        ]
+      },
+      {
+        "id" : 5,
+        "libelle": "disponibilité pour exercer un mandat syndical",
+        "typeDemandeur":"structure",
+          "piece": [
+            {
+              "id" : 7,
+              "libelle": "Le mandat syndical ou procès-verbal de délibération, ou toute autre pièce tenant lieu",
+              "categorie":"Disponibilite"
+            }      
+        ]
+      }
+  ]
+
+
+
+
+
+
